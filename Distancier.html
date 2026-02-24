@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link href="CSS/Style.css" rel="stylesheet">
-        <title> Outil Geomarketing - Cityz Media</title>
-        
-                <nav>
-                    <ul>
-                        <li><img src="img/logo_cityz.png"></li>
-                            <li><a class="lien" href="etude_de_couv.html">Étude de couverture</a></li>
-                            <li><a class="actif">Distancier</a></li>
-                        </ul>
-                </nav>
 
-                 <h1>Distancier</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="assets/CSS/Style.css" rel="stylesheet">
+    <title> Outil Geomarketing - Cityz Media</title>
 
-    </head>
-    <body>
+    <nav>
+        <ul>
+            <li><img src="assets/img/logo_cityz.png"></li>
+            <li><a class="lien" href="index.html">Étude de couverture</a></li>
+            <li><a class="actif">Distancier</a></li>
+        </ul>
+    </nav>
 
-    </body>
+    <h1>Distancier</h1>
+
+</head>
+
+<body>
+    <div class="file-input">
+        <input type="file" id="fileInput">
+        <label for="fileInput"></label>
+    </div>
+
+    <!--Séléctionner un fichier que javascript vas récupérer pour faire l'analyse spatiale-->
+    <div class="poinlistingoffre"></div>
+    <p>Sélectionnez la période de votre offre : </p>
+    <a href="assets/csv/pointlistingoffre1.csv" download>Période 1</a>
+    </div>
+
+    <button id="analyzeButton">Faire le distancier</button>
+
+
+    <div class="poinlistingoffre"></div>
+    <!--Télécharger le résultat sous forme de excel-->
+    <p>Télécharger le résultat</p>
+</body>
+
 </html>

@@ -1,0 +1,88 @@
+nav ul {
+    list-style-type: NONE;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+    border-radius: 30px;
+    border-color: #34dbeb;
+    
+
+}
+
+nav li {
+    flex-grow: 1;
+
+}
+
+img {
+    width: fit-content;
+}
+
+nav a {
+    display: block;
+    font-size: larger;
+    font-weight: bold;
+    font-size: clamp(1.25rem, 1.2vw, 1rem);
+    text-decoration: none !important;
+    color: #00aebb;
+
+}
+
+nav a.actif {
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+nav a.lien:hover {
+    color: rgb(76, 130, 231);
+    font-weight: bold;
+    
+}
+
+nav a.lien {
+    font-weight: bolder;
+    
+}
+
+h1 {
+    text-align: center;
+    background-color: rgba(130, 201, 241, 0.137);
+    padding-top: 10px;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    padding-bottom: 10px;
+    border-radius: 30px;
+
+}
+
+  
+
+
+#fileInput {
+    display: block;
+    align-items: center;
+    margin-top: 50px;
+    margin: 1cm auto;
+    margin-left: 200px;
+    padding: 50px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#analyzeButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
